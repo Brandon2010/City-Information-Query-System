@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="108dp"
+            android:layout_height="100dp"
+            android:layout_weight="1.64"
+            android:orientation="vertical"
+            android:padding="8.0dip" >
+
+            <ImageView
+                android:id="@+id/user_image"
+                android:layout_width="80dp"
+                android:layout_height="74dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/userimage" >
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="68.0dip"
+                android:layout_weight="0.63"
+                android:contentDescription="static user level"
+                android:src="@drawable/level30" />
+
+            <TextView
+                android:id="@+id/user_name_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户名："
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/user_name_text_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.49"
+                android:text="18809891038"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_background"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/rating_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="以往评价"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/id_placeratingamount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="【共    条】"
+                android:textAppearance="?android:textAppearanceMediumInverse"
+                android:textColor="#ffffffff"
+                android:textSize="14.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/placeratinglist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

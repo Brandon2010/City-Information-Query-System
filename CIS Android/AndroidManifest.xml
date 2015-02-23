@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.neu.cityinfosystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </permission>
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="VcIheHM6g08zWia7Lqs4dM0v" >
+        </meta-data>
+
+        <activity
+            android:name="com.cis.cityInfoSystem.SplashActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DianpingNoTitle.CustomerBackground" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cis.cityInfoSystem.ResultActivity"
+            android:configChanges="orientation" >
+        </activity>
+        <activity
+            android:name="com.cis.cityInfoSystem.DetailActivity"
+            android:configChanges="orientation" >
+        </activity>
+        <activity
+            android:name="com.cis.cityInfoSystem.CategoryActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.cis.cityInfoSystem.MainActivity"
+            android:configChanges="orientation" >
+        </activity>
+        <activity
+            android:name="com.cis.cityInfoSystem.MapActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensor" >
+        </activity>
+        <activity
+            android:name="com.cis.cityInfoSystem.RatingsActivity"
+            android:configChanges="orientation" >
+        </activity>
+        <activity
+            android:name="com.cis.cityInfoSystem.UserActivity"
+            android:configChanges="orientation" >
+        </activity>
+    </application>
+
+</manifest>

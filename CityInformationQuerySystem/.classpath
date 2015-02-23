@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Program Files/MySQL/MySQL Connector J/mysql-connector-java-5.1.20-bin.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/Java/lucene-4.7.2/analysis/common/lucene-analyzers-common-4.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/Java/lucene-4.7.2/core/lucene-core-4.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/Java/lucene-4.7.2/queryparser/lucene-queryparser-4.7.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="E:/BackUp/Documents/课程文档/毕业设计/develop material/IKAnalyzer-2012-4x.jar"/>
+	<classpathentry kind="lib" path="E:/BackUp/Documents/课程文档/毕业设计/develop material/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="E:/BackUp/Documents/课程文档/毕业设计/develop material/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="E:/BackUp/Documents/课程文档/毕业设计/develop material/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="E:/BackUp/Documents/课程文档/毕业设计/develop material/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/BackUp/Documents/课程文档/毕业设计/develop material/ezmorph-1.0.4.jar"/>
+	<classpathentry kind="lib" path="E:/BackUp/Documents/课程文档/毕业设计/develop material/json-lib-2.2.2-jdk15.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

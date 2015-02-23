@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent" 
+    android:background="#ffffffff" 
+    >  
+<TextView    
+    android:id="@+id/loginusernamelabel"  
+    android:layout_width="wrap_content"   
+    android:layout_height="wrap_content"  
+    android:layout_marginLeft="20dip"  
+    android:layout_marginRight="20dip"  
+    android:text="用户名"  
+    android:gravity="left"  
+    android:textAppearance="?android:attr/textAppearanceMedium"  
+    android:textColor="@android:color/black"
+    />  
+<EditText  
+    android:id="@+id/loginusername"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:layout_marginLeft="20dip"  
+    android:layout_marginRight="20dip"  
+    android:scrollHorizontally="true"  
+    android:gravity="fill_horizontal"  
+    android:textAppearance="?android:attr/textAppearanceMedium"  
+/>  
+<TextView  
+    android:id="@+id/loginpasswordlabel"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:layout_marginLeft="20dip"  
+    android:layout_marginRight="20dip"  
+    android:text="密码"  
+    android:gravity="left"  
+    android:textAppearance="?android:attr/textAppearanceMedium"  
+    android:textColor="@android:color/black"
+/>  
+<EditText  
+    android:id="@+id/loginpassword"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:layout_marginLeft="20dip"  
+    android:layout_marginRight="20dip"  
+    android:scrollHorizontally="true"  
+    android:gravity="fill_horizontal"  
+    android:inputType="textPassword" 
+    android:textAppearance="?android:attr/textAppearanceMedium"  
+      
+/>  
+</LinearLayout>  

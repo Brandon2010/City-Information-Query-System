@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, DianpingActivity!</string>
+    <string name="app_name">城市信息查询系统</string>
+    <string name="host">http://219.216.101.111:8080//CityInformationQuerySystem/servlet/</string>
+   <!-- <string name="host1">http://10.0.2.2:8080//CityInformationQuerySystem/servlet/</string>
+    <string name="host2">http://58.154.193.12:8080//CityInformationQuerySystem/servlet/</string>
+    <string name="host3">http://192.168.1.109:8080//CityInformationQuerySystem/servlet/</string> -->
+</resources>

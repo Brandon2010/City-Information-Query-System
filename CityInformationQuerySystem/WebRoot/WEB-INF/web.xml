@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>DataSource</description>
+    <display-name>DataSource</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.cityinfo.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>DataSource</description>
+    <display-name>DataSource</display-name>
+    <servlet-name>UserManagerServlet</servlet-name>
+    <servlet-class>com.cityinfo.servlet.UserManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>DataSource</description>
+    <display-name>DataSource</display-name>
+    <servlet-name>RatingServlet</servlet-name>
+    <servlet-class>com.cityinfo.servlet.RatingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>DataSource</description>
+    <display-name>DataSource</display-name>
+    <servlet-name>PlaceServlet</servlet-name>
+    <servlet-class>com.cityinfo.servlet.PlaceServlet</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserManagerServlet</servlet-name>
+    <url-pattern>/servlet/UserManagerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RatingServlet</servlet-name>
+    <url-pattern>/servlet/RatingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PlaceServlet</servlet-name>
+    <url-pattern>/servlet/PlaceServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+    <filter>
+        <filter-name>Set Character Encoding</filter-name>
+        <filter-class>com.cityinfo.filter.SetCharacterEncodingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>Set Character Encoding</filter-name>
+        <url-pattern>/servlet/*</url-pattern>
+    </filter-mapping>
+</web-app>

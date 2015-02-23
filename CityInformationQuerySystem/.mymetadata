@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="CityInformationQuerySystem"
+  id="myeclipse.1397465016460"
+  context-root="/CityInformationQuerySystem"
+  j2ee-spec="5.0"
+  archive="CityInformationQuerySystem.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
